@@ -1,0 +1,326 @@
+body{
+    background: url("bgbaru.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(18, 18, 18);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(20px);
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid #333;
+    z-index: 1000;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 3rem 2rem;
+}
+
+.grid label{
+    color: white;
+    margin-left: 1rem;
+}
+
+.tengah {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(60px);
+    color: #ff3d3d;
+    border: 1px solid #626262;
+    box-shadow: 0 0px 55px rgba(98, 98, 98, 0.1);
+    border-radius: 30px;
+    height: 25rem;
+    width: 30rem;
+    transition: all 0.4s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardd {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(60px);
+    color: #ff3d3d;
+    border: 1px solid #626262;
+    box-shadow: 0 0px 55px rgba(98, 98, 98, 0.1);
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 2rem;
+    transition: all 0.4s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.card h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: rem;
+}
+
+.card label{
+    margin-left: 1rem;
+}
+
+.card:hover {
+    border-color: #ff3d3d;
+}
+
+.cardInvo {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(60px);
+    color: #ff3d3d;
+    border: 1px solid #626262;
+    box-shadow: 0 0px 55px rgba(98, 98, 98, 0.1);
+    border-radius: 30px;
+    width: 80vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.invo{
+    text-align: left;
+    font-weight: 200;  
+    width: 100%;
+    padding: 1rem 1rem; 
+    border-collapse: collapse;
+    transition: all 0.8s ease;
+}
+
+.invo tr{
+    border: 1px solid #626262;
+}
+
+.invo tr:hover{
+    background: #ff3d3d;
+    color: #ffffff;
+}
+
+.total{
+    background-color: #ffffff;
+    color: #199500;
+    font-weight:600;
+}
+
+.cardDshbrd{
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0px 25px rgba(98, 98, 98, 0.1);
+    border-radius: 30px;
+    height: 10rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: row;          
+    justify-content: space-between;
+    align-items: stretch;        
+    box-sizing: border-box;
+    transition: all 0.15s ease-in-out;
+    overflow: hidden;
+}
+
+.cardDshbrd:hover{
+    box-shadow: 0 0px 40px #0000007b;
+    border-color: #ff3d3d;
+    scale: 1.02;
+}
+
+.cardPesan{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(60px);
+    color: #ffffff;
+    box-shadow: 0 0px 25px rgba(98, 98, 98, 0.1);
+    border-radius: 30px;       
+    padding: 50px 50px 30px 50px;
+
+}
+
+.deskripsi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.harga{
+    display: flex;
+    width: 3rem;
+    height: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px 40px;
+    border: 0.5px solid;
+    border-color: #646464;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+}
+
+.harga:hover{
+    border: 1px solid;
+    border-color: #ff3d3d;
+}
+
+.poster{
+    width: 120px;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+    align-items: stretch;
+}
+
+.deskripsi h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.deskripsi h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.deskripsi p {
+    margin: 0;
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.deskripsi a{
+    color: #9a9a9a;
+    font-size: 12px;
+}
+
+.harga h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.input {
+    width: 100%;
+    color: #ffffff;
+    height: 4rem;              
+    padding: 0 25px;    
+    margin: 5px 0px 10px 0px;      
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid #626262;
+    background-color: rgba(18, 18, 18, 0.496);
+    box-sizing: border-box;
+    outline: none;    
+    transition: 0.3s ease;
+}
+
+.input:focus {
+    border-color: #ff3d3d;
+    box-shadow: 0 0 20px #ff3d3d;
+    transform: scale(1.03);
+}
+
+.input:hover {
+    border-color: #ff3d3d;
+}
+
+.inputPesan {
+    width: 26rem;
+    border-radius: 20px;
+    background: transparent;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0px;
+    border: none;
+    outline: none;
+    color: rgb(174, 174, 174);
+    font-size: 18px;
+    box-shadow: 0 0 20px rgba(67, 67, 67, 0);
+    transition: all 0.3s ease;
+}
+
+.inputPesan:hover {
+    color:white;
+    scale: 1.02;
+}
+
+.inputPesan:focus {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    scale: 1.02;
+}
+
+.Btn {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: #ff3d3d; 
+    color: #ffffff;      
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+
+.Btn:hover {
+    box-shadow: 0 0 20px #ff1919
+}
+
+.editBtn {
+    width: 100%;
+    height: fit-content;
+    border: none;
+    border-radius: 20px;
+    background: #ff3d3d; 
+    color: #ffffff;      
+    cursor: pointer;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.editsmdelete{
+    display: flex;
+    height: fit-content;
+    flex-direction: row;          
+    justify-content: space-between;
+    align-items: stretch;        
+}
+
+td{
+    padding: 1rem;
+}
